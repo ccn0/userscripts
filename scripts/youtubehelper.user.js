@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Helper
 // @namespace    ccn0
-// @version      2
+// @version      3
 // @description  mods to make youtube better to use
 // @author       CCN0
 // @match        *://*.youtube.com/*
@@ -51,8 +51,6 @@
                 videoPreviewsSwitch.click();
             }
         }
-
-        document.getElementById('dismissible').style.display = 'none';
 
         const shareUrlInput = document.getElementById('share-url');
         let currentUrl = shareUrlInput.value;
