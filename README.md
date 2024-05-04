@@ -16,6 +16,7 @@ No round corners, ever.
 
 Removes the Thanks, Voice search, and Join buttons.
 If you open settings it turns off the video previews.
-It tries to hide the shorts panel.
-The share link doesn't have the long token.
+~~It tries to hide the shorts panel.~~
+The share link doesn't have the long ass token.
 All links don't have the redirect token.
+Redirects from shorts player to normal player.
