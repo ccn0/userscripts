@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Max Max
 // @namespace    ccn0
-// @version      2
+// @version      3
 // @description  making max usable
 // @author       CCN0
 // @match        *://*.max.com/*
@@ -16,26 +16,16 @@
         var skipbutton = document.querySelector('[data-testid="player-ux-skip-button"]');
         if (skipbutton) {skipbutton.click()};
 
-        const advisories = document.querySelectorAll('[class^="RatingsAdvisoriesContainer-Beam-Web-Ent"]');
-        if (advisories.length > 0) {
-            advisories.forEach(element => {
+        function removeElements(selector) {
+            const elements = document.querySelectorAll(selector);
+            elements.forEach(element => {
                 element.remove();
             });
-        } else {};
+        }
 
-        var topgradient = document.querySelectorAll('[class^="TopGradient-Beam-Web-Ent"]');
-        if (topgradient.length > 0) {
-            topgradient.forEach(element => {
-                element.remove();
-            });
-        } else {};
-
-        var bottomgradient = document.querySelectorAll('[class^="BottomGradient-Beam-Web-Ent"]');
-        if (bottomgradient.length > 0) {
-            bottomgradient.forEach(element => {
-                element.remove();
-            });
-        } else {};
+        removeElements('[class^="RatingsAdvisoriesContainer-Beam-Web-Ent"]');
+        removeElements('[class^="TopGradient-Beam-Web-Ent"]');
+        removeElements('[class^="BottomGradient-Beam-Web-Ent"]');
     };
 
     setInterval(maxMaxMax,500);

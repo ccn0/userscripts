@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Helper
 // @namespace    ccn0
-// @version      4
+// @version      5
 // @description  mods to make youtube better to use
 // @author       CCN0
 // @match        *://*.youtube.com/*
@@ -13,20 +13,16 @@
     'use strict';
 
     function youTubeHelper() {
-        const voiceSearchButton = document.querySelector('button[aria-label="Search with your voice"]');
-        if (voiceSearchButton) {
-            voiceSearchButton.remove();
+        function removeElements(selector) {
+            const elements = document.querySelectorAll(selector);
+            elements.forEach(element => {
+                element.remove();
+            });
         }
 
-        const joinButton = document.querySelector('button[aria-label="Join this channel"]');
-        if (joinButton) {
-            joinButton.remove();
-        }
-
-        const thanksButton = document.querySelector('button[aria-label="Thanks"]');
-        if (thanksButton) {
-            thanksButton.remove();
-        }
+        removeElements('button[aria-label="Search with your voice"]');
+        removeElements('button[aria-label="Thanks"]');
+        removeElements('button[aria-label="Join this channel"]');
 
         const links = document.querySelectorAll('a[href*="://www.youtube.com/redirect?"]');
 
