@@ -20,3 +20,7 @@ If you open settings it turns off the video previews.
 The share link doesn't have the long ass token.
 All links don't have the redirect token.
 Redirects from shorts player to normal player.
+
+## [Spookify](https://github.com/ccn0/userscripts/raw/main/scripts/spookify.user.js)
+
+Replaces a single random link on a page with a screamer. Who knows where to find it...
