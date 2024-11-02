@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Spookify
 // @namespace    ccn0
-// @version      U1S1.02
+// @version      U1S1.03
 // @description  replaces one link with a screamer
 // @author       CCN0
 // @match        *://*/*
@@ -17,6 +17,7 @@
         ["https://media.tenor.com/E_HSK33-xokAAAAi/fnaf-bunny.gif","https://ccn0.github.io/img/audio/plus/fnaf3jumpscare.mp3"],
         ["https://ccn0.github.io/img/spooky/smilegirl.png","https://ccn0.github.io/img/audio/plus/funandlaughing.mp3"],
         ["https://ccn0.github.io/img/spooky/spookyhillman.gif","https://ccn0.github.io/img/audio/plus/cardrivinghills.mp3"],
+        ["https://ccn0.github.io/img/spooky/niceman24kbfile.png","https://ccn0.github.io/img/audio/plus/southparkbestofcousinelvin.mp3"],
     ];
     const chosenScare = spookyList[Math.floor(spookyList.length * Math.random())];
 
