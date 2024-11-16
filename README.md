@@ -1,26 +1,36 @@
 # Userscripts
 
-These are userscripts I made for use for myself, that I thought could be here.
-Also, if it opens 2 tabs, idk why it does that so don't blame it on me.
+These are userscripts I made for use for myself, that I thought could be useful to other people.
+Also, if it opens 2 tabs when trying to install it, idk why it does that so don't blame that on me.
 
-## [Max Max](https://github.com/ccn0/userscripts/raw/main/scripts/maxmax.user.js)
+## [Max Max](https://github.com/ccn0/userscripts/raw/main/scripts/maxmax.user.js) v3
 
-Removes the gradients, TV ratings, and auto skips intro.
-I'll add features as I need them.
+Quality of life changes in HBO Max
 
-## [No Round Corners](https://github.com/ccn0/userscripts/raw/main/scripts/noroundcorners.user.js)
+* Removes gradients
+* Automatically skips intro
+* Makes GUI more transparent
+* Moves player UI a little bit
+
+## [No Round Corners](https://github.com/ccn0/userscripts/raw/main/scripts/noroundcorners.user.js) v2
 
 No round corners, ever.
 
-## [YouTube Helper](https://github.com/ccn0/userscripts/raw/main/scripts/youtubehelper.user.js)
+## [YouTube Helper](https://github.com/ccn0/userscripts/raw/main/scripts/youtubehelper.user.js) v6
 
-Removes the Thanks, Voice search, and Join buttons.
-If you open settings it turns off the video previews.
-~~It tries to hide the shorts panel.~~
-The share link doesn't have the long ass token.
-All links don't have the redirect token.
-Redirects from shorts player to normal player.
+A bunch of quality of life changes I think could be helpful.
 
-## [Spookify](https://github.com/ccn0/userscripts/raw/main/scripts/spookify.user.js)
+* Removes the Thanks, Voice search, and Join buttons
+* Removes the redirect token in links
+* Redirects from shorts player to normal player
+* Sharing a video removes the share token
+* Removes the Shorts and Playables shelves
+* Makes player have no rounded corners
+* Removes hashtag links
+* Hides infocards
+* Makes notification badge white on red
+* Hides the amount of unread notifications in tab title
+
+## [Spookify](https://github.com/ccn0/userscripts/raw/main/scripts/spookify.user.js) vU1S1.03
 
 Replaces a single random link on a page with a screamer. Who knows where to find it...
