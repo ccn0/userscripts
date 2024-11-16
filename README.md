@@ -3,7 +3,7 @@
 These are userscripts I made for use for myself, that I thought could be useful to other people.
 Also, if it opens 2 tabs when trying to install it, idk why it does that so don't blame that on me.
 
-## [Max Max](https://github.com/ccn0/userscripts/raw/main/scripts/maxmax.user.js) v3
+## [Max Max](https://github.com/ccn0/userscripts/raw/main/scripts/maxmax.user.js) v4
 
 Quality of life changes in HBO Max
 
