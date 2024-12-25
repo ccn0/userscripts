@@ -34,3 +34,7 @@ A bunch of quality of life changes I think could be helpful.
 ## [Spookify](https://github.com/ccn0/userscripts/raw/main/scripts/spookify.user.js) vU1S1.03
 
 Replaces a single random link on a page with a screamer. Who knows where to find it...
+
+## [Ding+ for YouTube](https://github.com/ccn0/userscripts/raw/main/scripts/dingplus.user.js) v1
+
+Plays a random sound effect every 0.1 to 15 seconds. There is no escape.
