@@ -30,6 +30,14 @@ A bunch of quality of life changes I think could be helpful.
 * Hides infocards
 * Makes notification badge white on red
 * Hides the amount of unread notifications in tab title
+  
+## [Mail.com Helper](https://github.com/ccn0/userscripts/raw/main/scripts/mailcomhelper.user.js) v3
+
+Quality of Life changes to Mail.com
+
+* Removes deferral links
+* Removes useless buttons
+* CON: settings button doesn't work sometimes so you have to go to favorites and really quickly click settings
 
 ## [Spookify](https://github.com/ccn0/userscripts/raw/main/scripts/spookify.user.js) vU1S1.03
 
