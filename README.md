@@ -43,6 +43,6 @@ Quality of Life changes to Mail.com
 
 Replaces a single random link on a page with a screamer. Who knows where to find it...
 
-## [Ding+ for YouTube](https://github.com/ccn0/userscripts/raw/main/scripts/dingplus.user.js) v1
+## [Ding+ for YouTube](https://github.com/ccn0/userscripts/raw/main/scripts/dingplus.user.js) v2
 
 Plays a random sound effect every 0.1 to 15 seconds. There is no escape.

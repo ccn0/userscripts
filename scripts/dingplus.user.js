@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Ding+ for YouTube
 // @namespace    ccn0
-// @version      1
+// @version      2
 // @description  Plays random shit every 100 milliseconds to 15 seconds
 // @author       CCN0
-// @match        *://youtube.com/watch?*
+// @match        *://*.youtube.com/watch?*
 // @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURf////8AAOta55MAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABmSURBVCjPhZFLEsAgCEOTG8D9L1trTbGINQvRN2T4iEL+6H3TQwtwC0eQDLgBzEAxwLj8gWw5Vtl2ihOwPP68MSXMezOU4rTensIW7ANwj2r0AISxCaOugCfQTln0YQIquQAvuwQuYxcSwuN7duwAAAAASUVORK5CYII=
 // @grant        none
 // ==/UserScript==
