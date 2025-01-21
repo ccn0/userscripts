@@ -4,6 +4,7 @@
 // @version      U1S1.03
 // @description  replaces one link with a screamer
 // @author       CCN0
+// @license      GPL-3
 // @match        *://*/*
 // @icon         https://ccn0.github.io/img/spooky/smilegirl32icon.png
 // @grant        none

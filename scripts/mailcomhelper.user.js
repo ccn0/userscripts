@@ -4,6 +4,7 @@
 // @version      3
 // @description  mail.com annoyance reducer
 // @author       CCN0
+// @license      MIT
 // @match        *://*.mail.com/*
 // @icon         https://s.uicdn.com/mailint/1.0.0/assets/favicon.ico
 // @grant        none

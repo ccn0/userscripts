@@ -4,6 +4,7 @@
 // @version      4
 // @description  making max usable
 // @author       CCN0
+// @license      MIT
 // @match        *://*.max.com/*
 // @icon         https://www.max.com/favicon.ico
 // @grant        none

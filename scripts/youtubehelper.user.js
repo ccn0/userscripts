@@ -4,6 +4,7 @@
 // @version      6
 // @description  mods to make youtube better to use
 // @author       CCN0
+// @license      MIT
 // @match        *://*.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?domain=youtube.com&sz=64
 // @grant        none
