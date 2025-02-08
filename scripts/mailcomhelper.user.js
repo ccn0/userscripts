@@ -2,7 +2,7 @@
 // @name         Mail.com Helper
 // @namespace    ccn0
 // @version      3
-// @description  mail.com annoyance reducer
+// @description  Quality of life changes to Mail.com
 // @author       CCN0
 // @license      MIT
 // @match        *://*.mail.com/*

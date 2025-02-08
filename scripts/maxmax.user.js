@@ -2,7 +2,7 @@
 // @name         Max Max
 // @namespace    ccn0
 // @version      4
-// @description  making max usable
+// @description  Quality of life changes to Max.com
 // @author       CCN0
 // @license      MIT
 // @match        *://*.max.com/*

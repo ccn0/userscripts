@@ -2,7 +2,7 @@
 // @name         Spookify
 // @namespace    ccn0
 // @version      U1S1.03
-// @description  replaces one link with a screamer
+// @description  Replaces one random link with a screamer
 // @author       CCN0
 // @license      GPL3
 // @match        *://*/*

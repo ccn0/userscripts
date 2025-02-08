@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         YouTube Helper
 // @namespace    ccn0
-// @version      6
-// @description  mods to make youtube better to use
+// @version      7
+// @description  Quality of life changes to YouTube
 // @author       CCN0
 // @license      MIT
 // @match        *://*.youtube.com/*
@@ -13,9 +13,13 @@
 (function() {
     function youTubeHelper() {
         /* make player have sharp corners */
-        document.querySelector('ytd-player').style.borderRadius = "0";
+        if (document.querySelector('ytd-player')) {
+            document.querySelector('ytd-player').style.borderRadius = "0";
+        };
         /* make notifications badge white */
-        document.querySelector('.yt-spec-icon-badge-shape__badge').style.color = "#fff"
+        if (document.querySelector('.yt-spec-icon-badge-shape__badge')) {
+            document.querySelector('.yt-spec-icon-badge-shape__badge').style.color = "#fff";
+        };
         /* hides notification amount in tab title */
         document.title = document.title.replace(/^\([0-9]*\)\s/, "");
 
@@ -32,22 +36,10 @@
         removeElements('ytd-video-description-infocards-section-renderer');
         removeElements('a.yt-simple-endpoint.style-scope.yt-formatted-string.bold');
         removeElements('a.yt-simple-endpoint.bold.style-scope.yt-formatted-string');
-
-        /* middle mouse clicking the avatars opens the link in new tab */
-        /*
-        document.querySelectorAll('#avatar-container').forEach((e)=>{
-            e.addEventListener('mousedown',(ev)=>{
-                ev.preventDefault();
-                if(ev.button===1){
-                    window.open(e.children[0].href)
-                }
-            })
-        });
-        */
-
-        /* kills annoying shelves */
-        document.querySelector('.ShortsLockupViewModelHostThumbnail').parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.remove();
-        document.querySelector('.yt-mini-game-card-view-model__thumbnail-image').parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.remove();
+        removeElements('.ytd-watch-info-text>a');
+        removeElements('button:has([aria-label="Channel watermark"])');
+        removeElements('ytd-rich-section-renderer');
+        removeElements('ytd-reel-shelf-renderer');
 
         /* makes links not go through youtube */
         document.querySelectorAll('a[href*="://www.youtube.com/redirect?"]').forEach(link => {
@@ -66,7 +58,7 @@
             let currentUrl = shareUrlInput.value;
             currentUrl = currentUrl.replace(/(\?|\&)si=[^&]*/g, '');
             shareUrlInput.value = currentUrl;
-        }
+        };
 
         if (window.location.href.includes('shorts/')) {
             let noshortsurl = window.location.href.replace('shorts/', 'watch?v=');

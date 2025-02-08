@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         No Round Corners
 // @namespace    ccn0
-// @version      2
-// @description  sets all css styles to not feature round corners wherever possible
+// @version      3
+// @description  Styles elements to remove any rounded corners
 // @author       CCN0
 // @license      CC0
 // @match        *://*/*
@@ -11,10 +11,9 @@
 // ==/UserScript==
 
 (function() {
-    'use strict';
     function noRoundCorners() {
-        for (let i = 0; i < document.getElementsByTagName('*').length; i++) {
-            document.getElementsByTagName('*')[i].style.borderRadius = '0';
+        for (let i = 0; i < document.querySelector('*').length; i++) {
+            document.querySelector('*')[i].style.borderRadius = '0';
     };};
     setInterval(noRoundCorners,100);
 })();
