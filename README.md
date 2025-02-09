@@ -16,17 +16,17 @@ Quality of life changes in HBO Max
 
 No round corners, ever.
 
-## [YouTube Helper](https://github.com/ccn0/userscripts/raw/main/scripts/youtubehelper.user.js) v6
+## [YouTube Helper](https://github.com/ccn0/userscripts/raw/main/scripts/youtubehelper.user.js) v7
 
-A bunch of quality of life changes I think could be helpful.
+A bunch of quality of life changes to YouTube.
 
+* Makes player have sharp corners
 * Removes the Thanks, Voice search, and Join buttons
 * Removes the redirect token in links
 * Redirects from shorts player to normal player
-* Sharing a video removes the share token
+* Sharing a video doesn't have the token
 * Removes the Shorts and Playables shelves
-* Makes player have no rounded corners
-* Removes hashtag links
+* Removes hashtags
 * Hides infocards
 * Makes notification badge white on red
 * Hides the amount of unread notifications in tab title
@@ -37,12 +37,18 @@ Quality of Life changes to Mail.com
 
 * Removes deferral links
 * Removes useless buttons
-* CON: settings button doesn't work sometimes so you have to go to favorites and really quickly click settings
+* Removes Google Search widget
+* **CON**: settings button doesn't work sometimes so you have to go to favorites and really quickly click settings
 
 ## [Spookify](https://github.com/ccn0/userscripts/raw/main/scripts/spookify.user.js) vU1S1.03
 
 Replaces a single random link on a page with a screamer. Who knows where to find it...
+(*You will still get redirected to the page it was linking to*)
 
 ## [Ding+ for YouTube](https://github.com/ccn0/userscripts/raw/main/scripts/dingplus.user.js) v2
 
-Plays a random sound effect every 0.1 to 15 seconds. There is no escape.
+Plays a random sound effect every 0.1 to 15 seconds when watching a YouTube video. You can't stop it.
+
+## [Highlight Text](https://github.com/ccn0/userscripts/raw/main/scripts/highlight.user.js) v2
+
+Use the right-click menu to highlight selected text.

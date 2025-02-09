@@ -6,7 +6,7 @@
 // @author       CCN0
 // @license      MIT
 // @match        *://*.max.com/*
-// @icon         https://www.max.com/favicon.ico
+// @icon         https://external-content.duckduckgo.com/ip3/www.max.com.ico
 // @grant        none
 // ==/UserScript==
 
