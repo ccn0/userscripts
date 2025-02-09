@@ -49,6 +49,6 @@ Replaces a single random link on a page with a screamer. Who knows where to find
 
 Plays a random sound effect every 0.1 to 15 seconds when watching a YouTube video. You can't stop it.
 
-## [Highlight Text](https://github.com/ccn0/userscripts/raw/main/scripts/highlight.user.js) v2
+## [Highlight Text](https://github.com/ccn0/userscripts/raw/main/scripts/highlight.user.js) v1
 
 Use the right-click menu to highlight selected text.
