@@ -52,3 +52,7 @@ Plays a random sound effect every 0.1 to 15 seconds when watching a YouTube vide
 ## [Highlight Text](https://github.com/ccn0/userscripts/raw/main/scripts/highlight.user.js) v1
 
 Use the right-click menu to highlight selected text.
+
+## [Alt Text](https://github.com/ccn0/userscripts/raw/main/scripts/alttext.user.js) v1
+
+Alt + Right Click on any image to see its alt text
